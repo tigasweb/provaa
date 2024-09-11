@@ -8,14 +8,14 @@
 }
 
 header {
-    padding: 80px;
+    padding: 40px;
     display: flex;
     justify-content: space-evenly;
-    background-color:#622824;
+    background-color:#340735;
 }
 
 header img {
-    width: 180px;
+    width:100px;
    
      
 }
@@ -35,11 +35,20 @@ header nav ul li a {
     color: white;
 }
 
+header nav ul li a:hover {
+    transition: 0.8s;
+    color: #3300ff;
+
+}
+
 .section-01 {
     padding: 180px;
-    background-color: #2f0618;
+    background-image: url(imagens/restaurante\ tema.jpg);
    justify-content: center;
    align-items: center;
+   background-position: center;
+   background-size: cover;
+   background-repeat: no-repeat;
     
 
 }
@@ -54,20 +63,21 @@ header nav ul li a {
 
 .section-01 h1 {
     color: white;
-    font-size: 30px;
+    font-size: 50px;
     margin-bottom: 10px;
+    
 }
 
-.section-01 p {
-    font-size: 22px;
+.section-01 li {
+    font-size: 30px;
     color: white;
-    margin-right:  40px; 
 }
+
 
 .section-01 button {
-    width: 120px;
+    width: 300px;
     padding: 10px;
-    background-color: rgb(0, 0, 0);
+    background-color: rgb(77, 0, 107);
     color: rgb(255, 252, 249);
     border-radius: 12px;
     margin-top: 15px;
@@ -76,7 +86,7 @@ header nav ul li a {
 }
 
 .section-01 button:hover {
-    background-color: #b3a176;
+    background-color: #7a005c;
     color: white;
     border-color: rgb(73, 72, 72);
     transition: 0.8s;
@@ -102,4 +112,92 @@ header nav ul li a {
     width:200px;
     height: 300px;
     background-color:#ad9a6f;
+}
+
+
+.div-pai-img .div-filho01 {
+    background-image: url(imagens/hamburguer\ spider.jpeg) ;
+    background-position: center;
+    background-size: cover;
+}
+
+.div-pai-img .div-filho02 {
+    background-image: url(imagens/hamburguer\ monstro.jpeg) ;
+    background-position: center;
+    background-size: cover;
+}
+
+.div-pai-img .div-filho03 {
+    background-image: url(imagens/hamburguer\ game\ 01.jpg) ;
+    background-position: center;
+    background-size: cover;
+}
+
+.div-pai-img .div-filho04 {
+    background-image: url(imagens/it\ copo.jpeg) ;
+    background-position: center;
+    background-size: cover;
+}
+
+.div-pai-img .div-filho05 {
+    background-image: url(imagens/zombieburger03.jpg) ;
+    background-position: center;
+    background-size: cover;
+}
+
+.div-pai-img .div-filho06 {
+    background-image: url(imagens/hamburguer\ st.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+
+
+.section-03 {
+    padding: 180px;
+    background-color: #6e6662 ;
+
+}
+
+.section-03 h2 {
+    font-size: 33px;
+    color: white;
+}
+
+.section-03 h4 {
+    color: red;
+    font-size: 22px;
+
+}
+
+.section-03 p {
+    font-size: 20px;
+    color: white;
+}
+
+footer {
+    padding: 30px;
+    background-color: #4f364a ;
+   justify-content: space-evenly;
+   display: flex;
+   
+}
+
+footer img {
+    width: 180px;
+    
+
+
+}
+
+footer i {
+    font-size: 40px;
+    margin-top: 90px;
+    
+}
+
+footer a {
+    text-decoration: none;
+    color: #ffffff;
+    
 }
