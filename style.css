@@ -20,6 +20,9 @@ header img {
      
 }
 
+
+
+
 header nav ul  {
     display: flex;
 
@@ -43,12 +46,14 @@ header nav ul li a:hover {
 
 .section-01 {
     padding: 180px;
-    background-image: url(imagens/restaurante\ tema.jpg);
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0.753) 8.33%, rgba(128, 0, 128, 0.658) 100%), url(imagens/restaurante\ tema.jpg);
    justify-content: center;
    align-items: center;
    background-position: center;
    background-size: cover;
    background-repeat: no-repeat;
+
+   
     
 
 }
@@ -97,7 +102,7 @@ header nav ul li a:hover {
 
 .section-02 {
     padding: 280px;
-    background-color: #412a9c;
+    background:linear-gradient(180deg,#202249 8.33%,#595ea3 100% );
 
 }
 
@@ -196,8 +201,18 @@ footer i {
     
 }
 
+footer .div-icone {
+   gap: 30px;
+    display: flex;
+}
+
 footer a {
     text-decoration: none;
     color: #ffffff;
     
+}
+
+footer i:hover {
+    transition: 0.8s;
+    color: #86030e;
 }

@@ -72,3 +72,79 @@ header nav ul li a:hover {
     font-size: 20px;
     color: white;
 }
+
+/* ----------------------------------- fim da section02 --------------------------------------------------- */
+
+.section-03{
+
+    padding:180px;
+    background-image: url(imagens/-texture.jpg) ;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+
+ }
+
+ .section-03 img {
+    width: 300px;
+    margin: 20px;
+
+ }
+
+
+ .section-03 h2 {
+    font-size: 40px;
+    color: red;
+    margin-left: 20px;
+    margin-bottom: 20px;
+ }
+
+ .section-03 p {
+    font-size: 20px;
+    color: white;
+    margin-left: 40px;
+ }
+
+ footer {
+    padding: 30px;
+    background-color: #4f364a ;
+   justify-content: space-evenly;
+   display: flex;
+   
+}
+
+footer img {
+    width: 180px;
+    
+
+
+}
+
+footer i {
+    font-size: 40px;
+    margin-top: 90px;
+    
+}
+
+footer .div-icone {
+    gap: 30px;
+     display: flex;
+ }
+
+footer a {
+    text-decoration: none;
+    color: #ffffff;
+    
+}
+
+footer i:hover {
+    transition: 0.8s;
+    color: #86030e;
+}
