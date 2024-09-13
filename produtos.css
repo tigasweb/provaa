@@ -1,0 +1,212 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: "Oswald", sans-serif;
+    list-style: none;
+}
+ /* ------------------------------------------começo header------------------------------------------- */
+
+ header {
+    padding: 40px;
+    display: flex;
+    justify-content: space-evenly;
+    background-color:#340735;
+}
+
+header img {
+    width:100px;
+   
+     
+}
+
+
+
+
+header nav ul  {
+    display: flex;
+
+}
+
+header nav ul li {
+    margin: 30px;
+
+}
+
+header nav ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+header nav ul li a:hover {
+    transition: 0.8s;
+    color: #3300ff;
+
+}
+
+/* -----------------------------------------fim do header----------------------------------------------- */
+
+/* ----------------------------------------começo section01----------------------------------------------- */
+   
+    .section-01 {
+        padding: 180px;
+        background-color: #4f364a;
+        align-items: center;
+
+        
+
+    }
+    .section-01 h2 {
+        font-size: 50px;
+        margin-bottom: 20px;
+        color: #ff061b;
+        text-align: center;
+     }
+ 
+
+    .div-pai1  {
+        gap:35px;
+        display: flex;
+        justify-content: space-evenly;
+        margin-bottom: 30px;
+        
+    }
+
+    .div-pai1 div {
+        width:200px;
+        height: 300px;
+        background-color:#ad9a6f;
+    }
+
+    .div-pai1 .div-filho01 {
+        background-image: url(imagens/hamburguer\ game\ 01.jpg) ;
+        background-position: center;
+        background-size: cover;
+    }
+    
+    .div-pai1 .div-filho02 {
+        background-image: url(imagens/hamburguer\ monstro.jpeg) ;
+        background-position: center;
+        background-size: cover;
+    }
+    
+    .div-pai1 .div-filho03 {
+        background-image: url(imagens/hamburguer\ spider.jpeg) ;
+        background-position: center;
+        background-size: cover;
+    }
+    
+    .div-pai1 .div-filho04 {
+        background-image: url(imagens/hamburguer\ st.jpg) ;
+        background-position: center;
+        background-size: cover;
+    }
+    
+    .div-pai1 .div-filho05 {
+        background-image: url(imagens/hamburguer\ harry.png);
+        background-position: center;
+        background-size: cover;
+    }
+    
+    .div-pai1 .div-filho06 {
+        background-image: url(imagens/hamburguer\ polvo.png);
+        background-position: center;
+        background-size: cover;
+    }
+    
+    /* -----------------------------------------começo section-02------------------------------------------------ */
+
+    .section-02 {
+        padding: 180px;
+        background-color: #500f43;
+     
+        align-items: center;
+        justify-content: center;
+
+    }
+
+    .section-02 h2 {
+       font-size: 50px;
+       margin-bottom: 20px;
+       color: #ff061b;
+       text-align: center;
+    }
+
+
+    .div-pai1 .div-filho07 {
+        background-image: url(imagens/milk\ barbie.jpg);
+        background-position: center;
+        background-size: cover;
+    }
+
+    .div-pai1 .div-filho08 {
+        background-image: url(imagens/milk\ bruxo.jpg);
+        background-position: center;
+        background-size: cover;
+    }
+
+    .div-pai1 .div-filho09 {
+        background-image: url(imagens/milk\ frutas.jpeg);
+        background-position: center;
+        background-size: cover;
+    }
+
+    .div-pai1 .div-filho10 {
+        background-image: url(imagens/milk\ nave\ espacial.jpeg);
+        background-position: center;
+        background-size: cover;
+    }
+
+    .div-pai1 .div-filho11 {
+        background-image: url(imagens/milk\ oreo.png);
+        background-position: center;
+        background-size: cover;
+    }
+
+    .div-pai1 .div-filho12 {
+        background-image: url(imagens/it\ copo.jpeg);
+        background-position: center;
+        background-size: cover;
+    }
+    
+    /* ---------------------------------------------------fim section01--------------------------------------- */
+    
+    
+    
+    footer {
+        padding: 30px;
+        background-color: #4f364a ;
+       justify-content: space-evenly;
+       display: flex;
+       
+    }
+    
+    footer img {
+        width: 180px;
+        
+    
+    
+    }
+    
+    footer i {
+        font-size: 40px;
+        margin-top: 90px;
+        
+    }
+    
+    footer .div-icone {
+       gap: 30px;
+        display: flex;
+    }
+    
+    footer a {
+        text-decoration: none;
+        color: #ffffff;
+        
+    }
+    
+    footer i:hover {
+        transition: 0.8s;
+        color: #86030e;
+    }

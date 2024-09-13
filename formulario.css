@@ -1,12 +1,13 @@
 * {
     margin: 0px;
     padding: 0px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 /* --------------------------------------Começo da section01------------------------------------------ */
 
 .section-01{
-    padding: 500px;
+    padding: 200px;
     background-image: url(imagens/galagol.png);
     background-position: center;
     background-size: cover;
@@ -51,3 +52,5 @@
     font-size: 35px;
     margin-bottom: 20px;
 }
+
+/* --------------------------------------------fim da section01------------------------------------ */
